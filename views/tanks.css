@@ -1,0 +1,102 @@
+ 
+body{
+	background-color: #232323;
+	margin:0;
+	font-family: 'Piedra', cursive;
+}
+#container{
+	max-width:600px;
+	margin:100px auto;
+}
+h1{
+	color:yellow;
+	text-shadow: 2 2 3px #FF0000, 4 4 5px #0000FF;
+	font-family: 'Piedra', cursive;
+	text-align: center;
+	line-height: 1.1;
+	padding: 20px 0;
+	background-color: rgb(115, 0, 0);
+	margin: 0;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+.box{
+	width:25%;
+	background:rgb(50, 48, 92);
+	padding: 40px 40px;
+	float:left;
+	text-align:center;
+	color:red;
+}
+.hero{
+	color:yellow;
+}
+.arrow{
+	background-color: white;
+	padding: 10px;
+	text-align:center;
+	width:25%;
+	float:left;
+	margin:10px;
+}
+.ground{
+	background-color:rgb(188, 132, 68);
+}
+.but{
+
+	font-family: 'Piedra', cursive;
+	text-transform: uppercase;
+	height: 100%;
+	color:black;
+	letter-spacing: 1px;
+	outline: none;
+}
+#stripe{
+	background-color:white;
+	height:40px;
+	text-align: center; 
+}
+.full{
+	border-radius: 15%;
+}
+.tr{
+	border-top-right-radius: 15%;
+}
+.tl{
+	border-top-left-radius: 15%;
+}
+.br{
+	border-bottom-right-radius: 15%;
+}
+.bl{
+	border-bottom-left-radius:15%;
+}
+.selected{
+	background-color:rgb(115, 0, 0); 
+}
+#message{
+	display: inline-block;
+	width:20%;
+	color: rgb(115, 0, 0);
+	font-family: 'Piedra', cursive;
+	font-size: 25px;
+}
+#info{
+	background-color: rgba(255, 255, 255, 0.4);
+	padding-left: 30px;
+	padding-right:30px;
+	padding-bottom:100px;
+	margin-top:600px;
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-bottom: 40px;
+}
+#score{
+	color:white;
+	font-size: 40px;
+}
+
+#info{
+	font-size: 30px;
+	color: rgb(128, 0, 0);
+} 
