@@ -42,7 +42,7 @@ function setupmodebutton(){
 			this.classList.add("selected");
 			//condition to start the game
 			if(this.textContent==="start"){
-				end=setInterval(endgame,11000);
+				end=setInterval(endgame,13000);
 				audio.loop=true;
 				audio.play();
 				chk=0;
