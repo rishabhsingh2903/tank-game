@@ -20,11 +20,11 @@ var endchk=0;
 //calling function to print welcome statement
 mess();
 //audio for shooting
-var firesound=new Audio("shoot.mp3");
+var firesound=new Audio("./public/shoot.mp3");
 //audio when game is started
-var audio=new Audio("got.mp3");
+var audio=new Audio("./public/got.mp3");
 //audio when space ship is moved
-var tankmove=new Audio("spaceshipmove.mp3");
+var tankmove=new Audio("./public/spaceshipmove.mp3");
 //to check wether the game is running or not
 var chk=1;
 setupmodebutton();
